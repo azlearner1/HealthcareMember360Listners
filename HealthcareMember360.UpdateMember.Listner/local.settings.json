@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "TopicName": "updatemember-topic",
+    "SubscriptionName": "updatemember-sub",
+    "AzureBusConnectionString": "Endpoint=sb://azuremcp.servicebus.windows.net/;SharedAccessKeyName=listen-updatemember;SharedAccessKey=GBfqeojmq8iiuLjpx9jFyk+ykG8LJDkRmeGrcG5axPo=;",
+    "SqlConnectionString": "Server=tcp:azuremcp.database.windows.net,1433;Initial Catalog=HealthcareMember360;Persist Security Info=False;User ID=senthil;Password=Selvam@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
